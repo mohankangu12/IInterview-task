@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>newt task1</title>
+        <script languate="javascript" type="text/javascript" src="newt11.js"></script>
+        </head>
+        <body>
+            <h2>Newt tasks given</h2>
+            
+            
+            <button onclick="upDateOnClick()"> Click me</button>
+            <div>
+                You have clicked <span id="click1">0</span> times!
+            </div>
+            <script>
+                var click = 0;
+function upDateOnClick()
+{
+    click = click + 1;
+    document.getElementById("click1").innerHTML = click;
+}
+            </script>
+            
+        </body>
+</html>
