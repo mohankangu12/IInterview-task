@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>newt task1</title>
+        <script languate="javascript" type="text/javascript" src="newt11.js"></script>
+        </head>
+        <body>
+            <h2>Newt tasks given</h2>
+            
+            
+            
+            
+            
+            <script>
+                const str = 'AnNad&';
+                const isPalindrome = (inStr) =>
+                {
+                  inStr = inStr.replace(/\W/,'');
+                  inStr = inStr.toLowerCase();
+                   for(let i=0;i<inStr.length;i++)
+                      {
+                       if(inStr[i]=== inStr[inStr.length-1-i])
+                         {
+                             console.log("Given number is polindome");
+                             return false;
+                          }
+                       }
+                    console.log("Given number is polindome");
+                       return true;
+                }
+                console.log(isPalindrome(str));
+          </script>
+            
+        </body>
+</html>
